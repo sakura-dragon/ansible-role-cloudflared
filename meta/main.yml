@@ -1,0 +1,15 @@
+galaxy_info:
+  role_name: cloudflared
+  author: Sakura Dragon
+  description: Install the (latest) cloudflared client on the host
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.10
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
